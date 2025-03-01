@@ -58,7 +58,7 @@ function Home() {
       
       <Section heading={middleSectionContent.heading} caption={middleSectionContent.caption} description={middleSectionContent.description} imagePosition="left"/>
       
-      <button onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more"}</button>
+      <button className="showMore" onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more"}</button>
       {showMore && <CardCarousel heading="Heading #1" cards={cardsData}/>}
       
     </div>

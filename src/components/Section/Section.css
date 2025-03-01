@@ -8,3 +8,19 @@
 .section-content.left {
   flex-direction: row-reverse;
 }
+
+.section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.section-heading {
+  margin: 0 0 24px 0;
+  font-size: 32px;
+}
+
+.section-text {
+  flex: 1;
+}

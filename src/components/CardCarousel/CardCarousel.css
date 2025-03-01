@@ -3,5 +3,28 @@
   flex-direction: row;
   overflow-x: auto;
   scroll-behavior: smooth;
+  align-items: center;
   gap: 32px;
+}
+  
+.card-carousel-section {
+  padding: 40px 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-heading {
+  margin: 0 0 24px 0;
+  font-size: 32px;
+}
+
+.card-carousel {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  padding: 16px 0;
+  scroll-behavior: smooth;
+  gap: 20px;
+  width: 100%;
 }
