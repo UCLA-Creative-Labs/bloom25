@@ -3,6 +3,7 @@ import CardCarousel from '../../components/CardCarousel/CardCarousel';
 import placeholderImage from '../../assets/gray_box.png'
 import exampleImage from '../../assets/example_image.png';
 import './Home.css';
+import { useState } from 'react';
 
 function Home() {
   const topSectionContent = {
@@ -49,13 +50,17 @@ function Home() {
     }
   ];
 
+  const [showMore, setShowMore] = useState(false);
+
   return (
     <div className="home">
       <Section heading={topSectionContent.heading} description={topSectionContent.description} imagePosition="right"/>
       
       <Section heading={middleSectionContent.heading} caption={middleSectionContent.caption} description={middleSectionContent.description} imagePosition="left"/>
       
-      <CardCarousel heading="Heading #1" cards={cardsData} />
+      <button onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more"}</button>
+      {showMore && <CardCarousel heading="Heading #1" cards={cardsData}/>}
+      
     </div>
   );
 }
