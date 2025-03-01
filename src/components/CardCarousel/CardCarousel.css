@@ -3,4 +3,5 @@
   flex-direction: row;
   overflow-x: auto;
   scroll-behavior: smooth;
+  gap: 32px;
 }

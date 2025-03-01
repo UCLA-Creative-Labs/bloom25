@@ -1,6 +1,7 @@
 import Section from '../../components/Section/Section';
 import CardCarousel from '../../components/CardCarousel/CardCarousel';
 import placeholderImage from '../../assets/gray_box.png'
+import exampleImage from '../../assets/example_image.png';
 import './Home.css';
 
 function Home() {
@@ -17,9 +18,9 @@ function Home() {
 
   const cardsData = [
     {
-      caption: "Caption #1",
-      description: "Description",
-      image: placeholderImage
+      caption: "Grab a nice matcha!",
+      description: "I enjoy cafe-hopping and trying new matcha around Los Angeles.",
+      image: exampleImage
     },
     {
       caption: "Caption #1",
