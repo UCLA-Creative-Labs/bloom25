@@ -1,4 +1,3 @@
-import React from 'react';
 import Card from '../Card/Card';
 import './CardCarousel.css';
 
@@ -10,8 +9,9 @@ function CardCarousel({ heading, cards }) {
         {cards.map((card, index) => (
           <Card 
             key={index} 
-            title={card.title} 
+            caption={card.caption} 
             description={card.description} 
+            image={card.image}
           />
         ))}
       </div>

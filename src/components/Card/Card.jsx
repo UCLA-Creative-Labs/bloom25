@@ -1,13 +1,11 @@
-import React from 'react';
 import './Card.css';
-import placeholderImage from '../../assets/gray_box.png';
 
-function Card({ title, description }) {
+function Card({ caption, description, image }) {
   return (
     <div className="card">
-      <img className="card-image" src={placeholderImage}/>
-      <div className="card-content">
-        <h3 className="card-title">{title}</h3>
+      <img className="card-image" src={image}/>
+      <div>
+        <h3 className="card-caption">{caption}</h3>
         <p className="card-description">{description}</p>
       </div>
     </div>

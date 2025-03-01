@@ -1,6 +1,6 @@
-import React from 'react';
 import Section from '../../components/Section/Section';
 import CardCarousel from '../../components/CardCarousel/CardCarousel';
+import placeholderImage from '../../assets/gray_box.png'
 import './Home.css';
 
 function Home() {
@@ -17,28 +17,34 @@ function Home() {
 
   const cardsData = [
     {
-      title: "Caption #1",
-      description: "Description"
+      caption: "Caption #1",
+      description: "Description",
+      image: placeholderImage
     },
     {
-      title: "Caption #1",
-      description: "Description"
+      caption: "Caption #1",
+      description: "Description",
+      image: placeholderImage
     },
     {
-      title: "Caption #1",
-      description: "Description"
+      caption: "Caption #1",
+      description: "Description",
+      image: placeholderImage
     },
     {
-      title: "Caption #1",
-      description: "Description"
+      caption: "Caption #1",
+      description: "Description",
+      image: placeholderImage
     },
     {
-      title: "Caption #1",
-      description: "Description"
+      caption: "Caption #1",
+      description: "Description",
+      image: placeholderImage
     },
     {
-      title: "Caption #1",
-      description: "Description"
+      caption: "Caption #1",
+      description: "Description",
+      image: placeholderImage
     }
   ];
 

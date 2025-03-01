@@ -1,4 +1,3 @@
-import React from 'react';
 import './Section.css';
 import placeholderImage from '../../assets/gray_box.png'
 
